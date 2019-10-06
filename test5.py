@@ -9,6 +9,8 @@ def main(arg):
 	try:
 		url = str(arg[1])
 		
+		
+		
 		headers = {}
 		headers['user-Agent'] = 'Mozilla/5.0 (X11; Linux i686)'
 		
