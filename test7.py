@@ -5,6 +5,7 @@ if [ $# -eq 1 ]; then
 	correct=$(( correct % $1 + 1 ))
 	
 	guess=0
+	
 	count=0
 	
 	while [ $guess -ne $correct ]; do
